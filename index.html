@@ -1,0 +1,107 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="es"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="es"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<title>Alan Cristhian</title>
+	<meta name="description" content="">
+	<meta name="author" content="Alan Cristhian Ruiz @AlanCristh">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
+	<script type="text/javascript">
+		window.Modernizr || document.write('<script src="js/libs/modernizr-2.5.3.min.js"><\/script>')
+	</script>
+
+	<!-- Carga jQuery al principio para poder usar el plugin LazyLoad -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript">
+		window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')
+	</script>
+	<script type="text/javascript" src="js/plugins/jquery.lazyload.min.js"></script>
+
+	<!-- Hago una carga local de selectivizr porque esa librería no me devuelve un objeto global que yo pueda usar para verificar de que se ha cargado correctamente desde el CDN. -->
+	<!--[if (gte IE 6)&(lte IE 8)]>
+		<script type="text/javascript" src="js/libs/selectivizr-min.js"></script>
+	<![endif]-->
+	
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png">
+
+	<!-- Meta tags para rellenar los campos de los plulins para compartir -->
+	<meta id="meta-titulo" property="og:title" content="Alan Cristhian - Diseño y desarrollo web" />
+	<meta id="meta-tipo" property="og:type" content="Página personal de Alan Cristhian" />
+	<meta id="meta-url" property="og:url" content="http://alancristh.tk" />
+	<meta id="meta-image" property="og:image" content="images/alan-cristh.png" />
+	<meta id="meta-desciption" property="og:description" content="Página personal de Alan Cristhian Ruiz http://alancristh.tk" />
+	<meta id="meta-site-name" property="og:site_name" content="alan cristhian home" />
+</head>
+<body>
+	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<header>
+		<h1>Alan Cristhian</h1>
+		<nav>
+			<ul>
+				<li><a href="/#!/home">Home</a></li>
+				<li><a href="/#!/about">About</a></li>
+				<li><a href="/#!/portfolio">Portfolio</a></li>
+				<li class="last-child"><a href="/#!/contact" >Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Esta parte se tal vez se cargue mediante AJAX -->
+	<section id="contenido">
+		<!-- <img class="lazy" src="img/grey.gif" data-original="img/example.jpg"  width="640" heigh="480"> -->
+	</section>
+
+	<footer>
+		<span>Copyright &copy; 2012 alanruiz.tk</span>
+		<aside id="botones-sociales">
+			<a class='st_facebook_custom'></a>
+			<a class='st_pinterest_custom'></a>
+			<a class='st_twitter_custom'></a>
+			<a class='st_googleplus_custom'></a>
+		</aside>
+	</footer>
+
+	<!-- <script src="js/plugins.js"></script> -->
+	<script src="js/plugins/jquery.hashchange.js"></script>
+	<script src="js/scripts.js"></script>
+	
+	<!-- Ejemplo de script para insertar email a prueba de spam -->
+	<span id="email"></span>
+	<script type="text/javascript">
+		$("#email").email({
+			usuario: "alan-ruiz",
+			dominio: "msn.com"
+		});
+	</script>
+	
+	<!-- Script para los botones de compartir en redes sociales -->
+	<script src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">
+		stLight.options({
+			publisher: "c0c5868a-9e1f-447c-9ec1-b4cfee214e3a",
+			popup: "true"
+		});
+	</script>
+
+	<!--
+	<script>
+		var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+	-->
+</body>
+</html>
