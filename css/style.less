@@ -9,23 +9,31 @@
 
 body {
 	background: @fondoBody;
-	border: 1px solid black;
 	margin: 0 auto;
 	padding: 3em;
-}
-body * {
-	border: 1px solid black;
+	text-align: center;
 }
 header {
-	margin-bottom: 3em;
+	margin-bottom: .25em;
 	.inline-block();
+	letter-spacing: 4em;
 }
 h1 {
-	margin: 0 2em 0 0;
+	margin: 0 0 1em 0;
+	*margin-right: 2em;
 	.inline-block();
+	font-size: 2.25em;
+	line-height: 1em;
+	letter-spacing: normal;
+}
+h2 {
+	font-size: 1.5em;
+	line-height: 1em;
 }
 nav {
 	.inline-block();
+	letter-spacing: normal;
+	margin-bottom: 2.25em;
 	ul {
 		list-style: none;
 		margin: 0;
@@ -37,26 +45,33 @@ nav {
 	}
 }
 footer {
-	border: 1px solid black;
 	.inline-block();
 }
 #contenido {
 	display: block;
+	letter-spacing: 3.5em;
 	width:auto;
 	article {
-		border: 1px solid black;
-		max-width: 12em;
-		margin: 1em 2em 1em 0;
-		padding: 1em;
+		text-align: left;
+		letter-spacing: normal;
+		max-width: 27em;
+		margin: 0 0 3em 0;
+		*margin-right: 3.5em;
 		.inline-block();
-		
-		&:last-child {
-			margin-right: 0;
-		}
-		
-		h2,
+		vertical-align: top;	
+
 		figure {
-			.inline-block();
+			display: block;
+			margin: 1.5em 0 0 0;
+			img {
+				float: left;
+				margin: 0 1em 1em 0;
+			}
+			figcaption {
+				text-align: justify;
+			}
+		}
+		h2 {
 			margin: 0;
 		}
 	}
