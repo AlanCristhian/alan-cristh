@@ -74,7 +74,7 @@
 					return size;
 				};
 				ppi = getPPI();
-				if (ppi < defaults.density) {
+				if (ppi > defaults.density) {
 					nFontSize = Math.round(ppi * getFontSize() / defaults.density) + "px";
 				}
 				$this.css("font-size", nFontSize);
@@ -122,9 +122,7 @@
 	});
 
 	$(document).on("ready", function() {
-		$("html").adaptFontSize({
-			density: 60
-		});
+		$("html").adaptFontSize();
 	});
 
 }).call(this);

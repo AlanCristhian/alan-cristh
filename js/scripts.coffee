@@ -52,7 +52,7 @@
 				size = Number size.substr(0, size.length - 2)
 				size
 			ppi = getPPI()
-			if ppi < defaults.density
+			if ppi > defaults.density
 				nFontSize = Math.round(ppi * getFontSize() / defaults.density) + "px"
 			$this.css "font-size", nFontSize
 			return true
@@ -88,6 +88,6 @@ $(window).hashchange ->
 	return
 
 $(document).on "ready", ->
-	$("html").adaptFontSize density: 60
+	$("html").adaptFontSize()
 	# $(window).hashchange()
 	return

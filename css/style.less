@@ -1,0 +1,63 @@
+// CSS Reset
+@import "mixins.less";
+@import "reset.less";
+
+// Estilos globales
+@import "variables.less";
+@import "globales.less";
+@import "botones-sociales.less";
+
+body {
+	background: @fondoBody;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 3em;
+}
+body * {
+	border: 1px solid black;
+}
+header {
+	margin-bottom: 3em;
+	.inline-block();
+}
+h1 {
+	margin: 0 2em 0 0;
+	.inline-block();
+}
+nav {
+	.inline-block();
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			margin-right: 1em;
+			.inline-block();
+		}
+	}
+}
+footer {
+	border: 1px solid black;
+	.inline-block();
+}
+#contenido {
+	display: block;
+	width:auto;
+	article {
+		border: 1px solid black;
+		max-width: 12em;
+		margin: 1em 2em 1em 0;
+		padding: 1em;
+		.inline-block();
+		
+		&:last-child {
+			margin-right: 0;
+		}
+		
+		h2,
+		figure {
+			.inline-block();
+			margin: 0;
+		}
+	}
+}

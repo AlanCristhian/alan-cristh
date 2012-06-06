@@ -24,6 +24,10 @@
 		window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')
 	</script>
 	<script type="text/javascript" src="js/plugins/jquery.lazyload.min.js"></script>
+	<!-- Acá van los scripts que si o si deben ir antes de cualquier contenido -->
+	<script type="text/javascript">
+		$("img.lazy").show().lazyload()
+	</script>
 
 	<!-- Hago una carga local de selectivizr porque esa librería no me devuelve un objeto global que yo pueda usar para verificar de que se ha cargado correctamente desde el CDN. -->
 	<!--[if (gte IE 6)&(lte IE 8)]>
@@ -60,7 +64,48 @@
 
 	<!-- Esta parte se tal vez se cargue mediante AJAX -->
 	<section id="contenido">
-		<!-- <img class="lazy" src="img/grey.gif" data-original="img/example.jpg"  width="640" heigh="480"> -->
+		<article>
+			<h2>Hojas verdes</h2>
+			<figure>
+				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-verdes.jpg"  width="192" heigh="192">
+				<figcaption>Descripción del contenido de la imagen.</figcaption>
+			</figure>
+		</article>
+		<article>
+			<h2>Hojas amarillas</h2>
+			<figure>
+				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-amarillas.jpg"  width="192" heigh="192">
+				<figcaption>Descripción del contenido de la imagen.</figcaption>
+			</figure>
+		</article>
+		<article>
+			<h2>Hojas rojas</h2>
+			<figure>
+				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-rojas.jpg"  width="192" heigh="192">
+				<figcaption>Descripción del contenido de la imagen.</figcaption>
+			</figure>
+		</article>
+		<article>
+			<h2>Hojas rojas</h2>
+			<figure>
+				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-rojas.jpg"  width="192" heigh="192">
+				<figcaption>Descripción del contenido de la imagen.</figcaption>
+			</figure>
+		</article>
+		<article>
+			<h2>Hojas rosadas</h2>
+			<figure>
+				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-rosadas.jpg"  width="192" heigh="192">
+				<figcaption>Descripción del contenido de la imagen.</figcaption>
+			</figure>
+		</article>
+		<article>
+			<h2>Hojas naranjas</h2>
+			<figure>
+				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-naranjas.jpg"  width="192" heigh="192">
+				<figcaption>Descripción del contenido de la imagen.</figcaption>
+			</figure>
+		</article>
 	</section>
 
 	<footer>
@@ -78,6 +123,7 @@
 	<script src="js/scripts.js"></script>
 	
 	<!-- Ejemplo de script para insertar email a prueba de spam -->
+	<!-- 
 	<span id="email"></span>
 	<script type="text/javascript">
 		$("#email").email({
@@ -85,7 +131,7 @@
 			dominio: "msn.com"
 		});
 	</script>
-	
+	 -->
 	<!-- Script para los botones de compartir en redes sociales -->
 	<script src="http://w.sharethis.com/button/buttons.js"></script>
 	<script type="text/javascript">
