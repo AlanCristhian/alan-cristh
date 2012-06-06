@@ -6,9 +6,7 @@
 (function() {
 
 	(function($) {
-		var name;
-		name = "";
-		$.fn[name] = function(options) {
+		$.fn.name = function(options) {
 			var defaults;
 			defaults = {
 				attribute: value
@@ -24,10 +22,7 @@
 	(function($) {
 		/* guardo el nombre del plugin en name para que el script sirva al ser comprimido
 		*/
-
-		var name;
-		name = "email";
-		$.fn[name] = function(options) {
+		$.fn.email = function(options) {
 			var defaults;
 			defaults = {
 				usuario: "nombre",
@@ -48,9 +43,7 @@
 
 
 	(function($) {
-		var name;
-		name = "adaptFontSize";
-		$.fn[name] = function(options) {
+		$.fn.adaptFontSize = function(options) {
 			var defaults;
 			defaults = {
 				density: 96
@@ -88,9 +81,7 @@
 
 
 	(function($) {
-		var name;
-		name = "updateShareThis";
-		$.fn[name] = function(options) {
+		$.fn.updateShareThis = function(options) {
 			var defaults;
 			defaults = {
 				attribute: value

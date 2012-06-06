@@ -1,7 +1,6 @@
 ### Este código fue escrito en CoffeeScript y luego fué compilado ###
 (($)->
-	name = ""
-	$.fn[name] = (options) ->
+	$.fn.name = (options) ->
 		defaults =
 			attribute: value
 		$.extend(defaults, options)
@@ -13,8 +12,7 @@
 
 (($) ->
 	### guardo el nombre del plugin en name para que el script sirva al ser comprimido ###
-	name = "email"
-	$.fn[name] = (options) ->
+	$.fn.email = (options) ->
 		defaults = 
 			usuario: "nombre"
 			dominio: "dominio.com"
@@ -32,8 +30,7 @@
 ### Cambia el tamaño de la fuente para que no se vea chica en pantallas de resoluciones mayores a 96ppi como la pantalla del samsung galaxy o el nuevo iPad. Si la resolución es menor a 96ppi (como la pantalla de un televisor) entonces no hace nada. ###
 
 (($)->
-	name = "adaptFontSize"
-	$.fn[name] = (options) ->
+	$.fn.adaptFontSize = (options) ->
 		defaults =
 			density: 96
 
@@ -62,8 +59,7 @@
 
 ### Cambia el valor de los meta tags del plugin Share This para que con los mismos botones se pueda compartir diferentes cosas de la página ###
 (($)->
-	name = "updateShareThis"
-	$.fn[name] = (options) ->
+	$.fn.updateShareThis = (options) ->
 		defaults =
 			attribute: value
 		$.extend(defaults, options)
