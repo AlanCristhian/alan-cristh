@@ -215,11 +215,12 @@
 }
 
 // Drop shadows
-.box-shadow(@shadow: 0 1px 3px rgba(0,0,0,.25), @color, @direccion, @ancho) {
+.box-shadow(@shadow: 0 1px 3px rgba(0,0,0,.25)) {
 	-webkit-box-shadow: @shadow;
 		 -moz-box-shadow: @shadow;
 					box-shadow: @shadow;
-	/* Maldito IE */
+}
+.box-shadow-ie(@color, @direccion, @ancho) {
 	filter: progid:DXImageTransform.Microsoft.Shadow(color= @color, Direction= @direccion , Strength= @ancho);
 }
 .text-shadow-ie(@color, @direccion, @ancho) {
@@ -404,7 +405,7 @@
 		background-image: -moz-radial-gradient(circle, @innerColor, @outerColor);
 		background-image: -ms-radial-gradient(circle, @innerColor, @outerColor);
 		background-image: -o-radial-gradient(circle, @innerColor, @outerColor);
-		//background-repeat: no-repeat;
+		background-repeat: no-repeat;
 	}
 	.striped(@color, @angle: -45deg) {
 		background-color: @color;

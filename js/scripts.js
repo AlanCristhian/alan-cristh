@@ -1,7 +1,6 @@
 
-/* Este código fue escrito en CoffeeScript y luego fué compilado
-*/
 
+/* Este código fue escrito en CoffeeScript y luego fué compilado */
 
 (function() {
 
@@ -19,9 +18,10 @@
 		};
 	})(jQuery);
 
+
+	/* guardo el nombre del plugin en name para que el script sirva al ser comprimido */
+
 	(function($) {
-		/* guardo el nombre del plugin en name para que el script sirva al ser comprimido
-		*/
 		$.fn.email = function(options) {
 			var defaults;
 			defaults = {
@@ -38,47 +38,8 @@
 		};
 	})(jQuery);
 
-	/* Cambia el tamaño de la fuente para que no se vea chica en pantallas de resoluciones mayores a 96ppi como la pantalla del samsung galaxy o el nuevo iPad. Si la resolución es menor a 96ppi (como la pantalla de un televisor) entonces no hace nada.
-	*/
 
-
-	(function($) {
-		$.fn.adaptFontSize = function(options) {
-			var defaults;
-			defaults = {
-				density: 96
-			};
-			$.extend(defaults, options);
-			return this.each(function() {
-				var $this, getFontSize, getPPI, nFontSize, ppi;
-				$this = $(this);
-				getPPI = function() {
-					var element, ppi;
-					element = $("<div style='float: left; margin: 0; padding: 0; visibility: hidden; width: 1in;'></div>");
-					element.appendTo("body");
-					ppi = element.outerWidth();
-					element.remove();
-					return ppi;
-				};
-				getFontSize = function() {
-					var size;
-					size = $this.css("font-size");
-					size = Number(size.substr(0, size.length - 2));
-					return size;
-				};
-				ppi = getPPI();
-				if (ppi > defaults.density) {
-					nFontSize = Math.round(ppi * getFontSize() / defaults.density) + "px";
-				}
-				$this.css("font-size", nFontSize);
-				return true;
-			});
-		};
-	})(jQuery);
-
-	/* Cambia el valor de los meta tags del plugin Share This para que con los mismos botones se pueda compartir diferentes cosas de la página
-	*/
-
+	/* Cambia el valor de los meta tags del plugin Share This para que con los mismos botones se pueda compartir diferentes cosas de la página */
 
 	(function($) {
 		$.fn.updateShareThis = function(options) {
@@ -94,11 +55,10 @@
 		};
 	})(jQuery);
 
+
 	/* Uso el plugin hashchange para hacer usables los botones "atrás" y "adelante" del navegador.Este plugin fue sacado de http://archive.plugins.jquery.com/project/hashchange
 	
-	Este método está en el archivo ../js/plugins/jquery.hashchange.js
-	*/
-
+	Este método está en el archivo ../js/plugins/jquery.hashchange.js */
 
 	$(window).hashchange(function() {
 		var direccion, hashBang;
@@ -112,8 +72,13 @@
 		}
 	});
 
+
+	/* El método responsivesize cambia los tamaños para que los elementos no se vean pequeños en resoluciones mayores a 96dpi.
+	
+	Este método está en el archivo ../js/plugins/jquery.responsivesie.js */
+
 	$(document).on("ready", function() {
-		$("html").adaptFontSize();
+		$("img.lazy").show().lazyload();
 	});
 
 }).call(this);

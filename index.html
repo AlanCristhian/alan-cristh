@@ -18,17 +18,6 @@
 		window.Modernizr || document.write('<script src="js/libs/modernizr-2.5.3.min.js"><\/script>')
 	</script>
 
-	<!-- Carga jQuery al principio para poder usar el plugin LazyLoad -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script type="text/javascript">
-		window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')
-	</script>
-	<script type="text/javascript" src="js/plugins/jquery.lazyload.min.js"></script>
-	<!-- Acá van los scripts que si o si deben ir antes de cualquier contenido -->
-	<script type="text/javascript">
-		$("img.lazy").show().lazyload()
-	</script>
-
 	<!-- Hago una carga local de selectivizr porque esa librería no me devuelve un objeto global que yo pueda usar para verificar de que se ha cargado correctamente desde el CDN. -->
 	<!--[if (gte IE 6)&(lte IE 8)]>
 		<script type="text/javascript" src="js/libs/selectivizr-min.js"></script>
@@ -41,12 +30,12 @@
 	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png">
 
 	<!-- Meta tags para rellenar los campos de los plulins para compartir -->
-	<meta id="meta-titulo" property="og:title" content="Alan Cristhian - Diseño y desarrollo web" />
-	<meta id="meta-tipo" property="og:type" content="Página personal de Alan Cristhian" />
-	<meta id="meta-url" property="og:url" content="http://alancristh.tk" />
-	<meta id="meta-image" property="og:image" content="images/alan-cristh.png" />
-	<meta id="meta-desciption" property="og:description" content="Página personal de Alan Cristhian Ruiz http://alancristh.tk" />
-	<meta id="meta-site-name" property="og:site_name" content="alan cristhian home" />
+	<meta id="meta-titulo" 		property="og:title" 		content="Alan Cristhian - Diseño y desarrollo web" />
+	<meta id="meta-tipo" 		property="og:type" 			content="Página personal de Alan Cristhian" />
+	<meta id="meta-url" 		property="og:url" 			content="http://alancristh.tk" />
+	<meta id="meta-image" 		property="og:image" 		content="images/alan-cristh.png" />
+	<meta id="meta-desciption" 	property="og:description" 	content="Página personal de Alan Cristhian Ruiz http://alancristh.tk" />
+	<meta id="meta-site-name" 	property="og:site_name" 	content="alan cristhian home" />
 </head>
 <body>
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -62,45 +51,58 @@
 		</nav>
 	</header>
 
+	<section id="splash">
+		<img src="img/avatar.jpg" alt="" height="120" width="120"/>
+		<p><em>Hola soy programador y desarrollador web. Mientras me dedico a esto, estudio Ingeniería Electromecánica y este es mi portfolio. En esta página te voy a contar todo lo que se hacer.</em></p>
+	</section>
+
 	<!-- Esta parte se tal vez se cargue mediante AJAX -->
-	<section id="contenido">
+	<section class="contenido">
 		<article>
-			<h2>Hojas verdes</h2>
+			<h3>Elementos que se ajustan</h3>
 			<figure>
-				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-verdes.jpg"  width="192" heigh="192">
-				<figcaption>Lorem ipsum dolor sit amet, quis auxilio quid populi cum magna Dianam Interposito brutis aeternae reversurus eum. Mucro enim formam unitas reddere Dionysiadem tuos sed quod eam ad nomine Maria cum magna. Concordi fabricata ait mea in modo invenit Boreas ingreditur ad suis, navis famuli dabit es est cum magna amici rex. Tum vero rex in fuerat eum istam definisti quis ait! Imas rebum accusam amici invocat manibusque removit benedictus, 'Quicumque iactavit per accipere sibi aperit honestate doctrinam. Potentiam suos faciam cum obiectum ait.</figcaption>
+				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/diseno-ajustable.jpg"  width="192" heigh="192">
+				<figcaption>
+					<p>Existen muchos dispositivos y de diferentes tamaños: smartphones, tablets, desktops, notebooks, etc. Entonces, sería conveniente que el diseño de una aplicación web se vea bien en todos ellos. Además, nos intereza que el diseño sea <strong>parecido</strong> en cada uno de los dispositivos para que la marca no pierda su identidad.</p>
+					
+					<p><strong>¿Y como se logra eso?</strong></p>
+					
+					<p>La solución, entre otras cosas, es una técnia llamada <strong>Responsive Web Design</strong>, la cual consiste en hacer un único diseño que se ajuste automáticamente a los tamaños de cualquier pantalla.</p>
+					
+					<p>Si quieres ver el <strong>Responsive Web Design</strong> en acción, redimensiona la ventanta de tu navegador y observa como los objetos en esta página se ajustan. Si quieres puedes <a href="#">leer mas</a> sobre esto.</p>
+				</figcaption>
 			</figure>
 		</article>
 		<article>
-			<h2>Hojas amarillas</h2>
+			<h3>Enrriquecimiento de la experciencia del usuario</h3>
 			<figure>
-				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-amarillas.jpg"  width="192" heigh="192">
+				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/enriqucimiento.jpg"  width="192" heigh="192">
 				<figcaption>Peregrini ingratus extra cuius ampullam ungues dotis quare. Tyrium coniugem flebant Tharsiam Hellenicus mihi quidditas mihi Tyrum ad per animum pares terris restituit. Nimis barbam cum suam ut casus inferioribus civitatis in, interveniens sed dominum depressit filia dedit hoc. Iriure dolore facto nuntium ante propter Apollonius eius est cum magna anima est Apollonius. Natura fugam servabant castrum Apollonius mihi Tyrum reverteretur ad quia iuvenis naves. Plenus lacrimas illa benignissime vi aureo in modo genito in.</figcaption>
 			</figure>
 		</article>
 		<article>
-			<h2>Hojas rojas</h2>
+			<h3>Hojas rojas</h3>
 			<figure>
 				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-rojas.jpg"  width="192" heigh="192">
 				<figcaption>Itaque completum respondit habere litore iunctionem quae dicens mea in lucem exempli paupers. Num praebeo deum rogus aegritudinis causet subsannio oculos rex. Coepit amatrix tolle auri est in deinde plectrum anni ipsa codicellos aperiri sacras mari perdidisse usque. Audite deo agili est cum unde. Pater unica suae ad per sanctus singulos domum sum illum Apollonii liberae esurienti. Zurziaca in rei sensibilium acciperem qui enim ad te ad quia ei sed quod una in deinde cepit roseo. Tharsum cuius ad te princeps audito doctrinis beneficio duxit quod ait mea vero cum magna aliter nata ait. Cumque materia amicis in fuerat est Apollonius. Verenam operibus furiam conclusoque sponte profundo filia puella eius sed haec in. Patris Tyrius tu bestias terras se ad quia, scrutor audire propter Apollonius eius non coepit cenam. Impietas ideo complesset mittam eum est se ad nomine Piscatore mihi. Duo nobilibus in modo cavendum es sed eu, intrarem puella est in rei exultant deo hanc. 'Iuraveras magnifice ex quae non potentiae falsa namque amorem civium takimata.</figcaption>
 			</figure>
 		</article>
 		<article>
-			<h2>Hojas rosadas</h2>
+			<h3>Hojas rosadas</h3>
 			<figure>
 				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-rosadas.jpg"  width="192" heigh="192">
 				<figcaption>Ex auxilium premente fovit exhibuit glorifico proprium in fuerat. De his domino nostrud exhibuerit dixerunt Ambo una civitatis in lucem exempli paupers coniunx efficerer nuptiarum solum puella. Fige omnium ad nomine Piscatore mihi esse more defuncta ait Cumque persequatur sic. Altera quod una Christi sanguine rursum reliquit dicens nec caecatus dum veniens indica enim materiam ei sed. Fecisti huc ripae simul itaque sed. Permiseras enim formam cum suam ad nomine Stranguillio ut libertatem adhuc. Stranguillionis in modo genito in deinde cupis ei auri in lucem concitaverunt in!</figcaption>
 			</figure>
 		</article>
 		<article>
-			<h2>Hojas naranjas</h2>
+			<h3>Hojas naranjas</h3>
 			<figure>
 				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-naranjas.jpg"  width="192" heigh="192">
 				<figcaption>Ecclesiam consuetudinem viginti seu ad quia illum ille sui Care die attingit Archistrate. Percussus ait in lucem in fuerat se in deinde plectrum anni ipsa codicellos. Deo apprehendit Apollonius ut casus adprehendens lugubri vestigia o animali viderat Apollonius eius sed eu fugiens laudo in rei civibus. Theophilus ut diem obiecti prius si mihi esse deprecor Athenagora ut libertatem accipies. Contine inauditas actualitas tuae meorum sic genero coruscus eum ego illum decidat quam crucis corpore in modo! Gratissime frangantur eos in fuerat eum filiam. Sordido triclinio laudes quod ait mea Christianis aedificatur ergo quod una in deinde cepit roseo commendavit auri. Neptunalia festinare decenter ortam unum congue nomen ibique parvulam eodem in rei sensibilium acciperem. Latere ab esset animae tertio eam in. Chaldaeorum in deinde vero rex cum suam in lucem concitaverunt in fuerat eum filiam rex Dionysiadi me.</figcaption>
 			</figure>
 		</article>
 		<article>
-			<h2>Hojas verdes</h2>
+			<h3>Hojas verdes</h3>
 			<figure>
 				<img class="lazy" src="img/fondo-imagenes.jpg" data-original="img/hojas-verdes.jpg"  width="192" heigh="192">
 				<figcaption>Vini in lucem concitaverunt in. Accepit in rei sensibilium acciperem qui auri Neptunus spatia tribulatione. Cellam sanctissima coniunx in fuerat est in deinde cupis hominem eam ad suis. Proiciens te in modo genito in. Rationem non dum miror puella est amet constanter determinatio vestes. Plus istum igni ait in modo. Parem luctu ei primum subsannio oculos ne civitatis intelligitur sicut gaudio.</figcaption>
@@ -109,16 +111,24 @@
 	</section>
 
 	<footer>
-		<span>Copyright &copy; 2012 alanruiz.tk</span>
 		<aside id="botones-sociales">
 			<a class='st_facebook_custom'></a>
 			<a class='st_pinterest_custom'></a>
 			<a class='st_twitter_custom'></a>
 			<a class='st_googleplus_custom'></a>
 		</aside>
+		<aside>
+			<span>Copyright &copy; 2012 alanruiz.tk</span> <br />
+		</aside>
 	</footer>
 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript">
+		window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')
+	</script>
+	
 	<!-- <script src="js/plugins.js"></script> -->
+	<script src="js/plugins/jquery.lazyload.min.js"></script>
 	<script src="js/plugins/jquery.hashchange.js"></script>
 	<script src="js/scripts.js"></script>
 	
