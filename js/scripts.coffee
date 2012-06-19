@@ -13,7 +13,7 @@
 ### guardo el nombre del plugin en name para que el script sirva al ser comprimido ###
 (($) ->
 	$.fn.email = (options) ->
-		defaults = 
+		defaults =
 			usuario: "nombre"
 			dominio: "dominio.com"
 
