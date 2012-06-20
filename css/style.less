@@ -1,11 +1,11 @@
 // CSS Reset
 @import "mixins.less";
 @import "reset.less";
+@import "font-awesome.less";
+@import "font-awesome-ie7.less";
 
 // Estilos globales
 @import "variables.less";
-// @import "globales.less";
-@import "botones-sociales.less";
 
 .borde() {
 	border: 1px solid black;
@@ -25,7 +25,7 @@ em {
 }
 a {
 	font-weight: bold;
-	color: @enlaces;
+	color: @enlaces - #101010;
 	&:hover {
 	}
 }
@@ -74,7 +74,7 @@ nav {
 			// ver si se puede usar el letter-spacing
 			margin-right: .4em;
 			a {
-				border: 1px solid @bordeNavClaro;
+				border: 0.06em solid @bordeNavClaro;
 				border-right: 1px solid @bordeNavOscuro;
 				border-bottom: 1px solid @bordeNavOscuro;
 				.border-radius(.25em);
@@ -180,5 +180,53 @@ footer {
 	}
 	h2 {
 		letter-spacing: normal;
+	}
+}
+.generar-boton(@colorArriba, @colorAbajo) {
+	.border-radius(.35em);
+	.box-shadow(.1em .1em .2em rgba(0, 0, 0, .35));
+	// border: thin solid @colorArriba + #202020;
+	border: 0.06em solid @colorArriba + #202020;
+	border-right: @colorArriba - #303030;
+	border-bottom: @colorAbajo - #303030;
+	#gradient > .vertical(@colorArriba, @colorAbajo);
+	&:hover {
+		#gradient > .vertical(@colorArriba + #101010, @colorAbajo + #101010);
+		cursor: pointer;
+	}
+	&:active {
+		#gradient > .vertical(@colorAbajo, @colorArriba);
+	}
+}
+#botones-sociales {
+	.inline-block();
+	vertical-align: middle;
+	a {
+		color: white;
+		height: 2.5em;
+		.inline-block();
+		margin: 0 .4em;
+		text-align: center;
+		width: 2.5em;
+		i {
+			font-size: 2em;
+			line-height: 1em;
+			margin: .2em auto 0 auto;
+			*margin-top: .4em;
+			*padding-left: .2em;
+			text-shadow: 0 0 .2em rgba(0, 0, 0, .25);
+		}
+	}
+	.st_facebook_custom {
+		.generar-boton(@arribaFacebook, @abajoFacebook);
+	}
+	.st_pinterest_custom {
+		.generar-boton(@arribaPinterest, @abajoPinterest);
+	}
+	.st_twitter_custom {
+		.generar-boton(@arribaTwitter, @abajoTwitter);
+	}
+	.st_googleplus_custom {
+		.generar-boton(@arribaGoogle, @abajoGoole);
 	}
 }
