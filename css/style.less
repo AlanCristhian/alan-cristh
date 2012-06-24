@@ -74,9 +74,9 @@ nav {
 			// ver si se puede usar el letter-spacing
 			margin-right: .4em;
 			a {
-				border: 0.06em solid @bordeNavClaro;
-				border-right: 0.06em solid @bordeNavOscuro;
-				border-bottom: 0.06em solid @bordeNavOscuro;
+				border: .1em solid @bordeNavClaro;
+				border-right: .1em solid @bordeNavOscuro;
+				border-bottom: .1em solid @bordeNavOscuro;
 				.border-radius(.25em);
 				.box-shadow(.1em .1em .2em rgba(0, 0, 0, .35));
 				color: white;
@@ -90,9 +90,9 @@ nav {
 				text-shadow: 0 0 .2em rgba(0, 0, 0, .75);
 				&:hover,
 				&:focus {
-					border: 0.06em solid @bordeNavClaroHover;
-					border-right: 0.06em solid @BordeNavOscuroHover;
-					border-bottom: 0.06em solid @BordeNavOscuroHover;
+					border: .1em solid @bordeNavClaroHover;
+					border-right: .1em solid @BordeNavOscuroHover;
+					border-bottom: .1em solid @BordeNavOscuroHover;
 					#gradient > .vertical(@claroNavHover, @oscuroNavHover);
 				}
 				&:active {
@@ -185,17 +185,22 @@ footer {
 .generar-boton(@colorArriba, @colorAbajo) {
 	.border-radius(.35em);
 	.box-shadow(.1em .1em .2em rgba(0, 0, 0, .35));
-	// border: thin solid @colorArriba + #202020;
-	border: 0.06em solid @colorArriba + #202020;
-	border-right: @colorArriba - #303030;
-	border-bottom: @colorAbajo - #303030;
+	border: .1em solid @colorArriba + #202020;
+	border-right-color: @colorAbajo - #101010;
+	border-bottom-color: @colorAbajo - #101010;
 	#gradient > .vertical(@colorArriba, @colorAbajo);
 	&:hover {
 		#gradient > .vertical(@colorArriba + #101010, @colorAbajo + #101010);
 		cursor: pointer;
+		border-color: @colorArriba + #303030;
+		border-right-color: @colorAbajo;
+		border-bottom-color: @colorAbajo;
 	}
 	&:active {
 		#gradient > .vertical(@colorAbajo, @colorArriba);
+		border-color: @colorArriba + #202020;
+		border-right-color: @colorAbajo - #101010;
+		border-bottom-color: @colorAbajo - #101010;
 	}
 }
 #botones-sociales {
