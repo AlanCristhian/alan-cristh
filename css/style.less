@@ -4,16 +4,45 @@
 @import "font-awesome.less";
 @import "font-awesome-ie7.less";
 
-// Estilos globales
-@import "variables.less";
+// mixins
+.generar-boton(@colorArriba, @colorAbajo, @colorTexto: white) {
+	.border-radius(.35em);
+	.box-shadow(.1em .1em .2em rgba(0, 0, 0, .5));
+	border: .1em solid @colorArriba + #202020;
+	border-right-color: @colorAbajo - #101010;
+	border-bottom-color: @colorAbajo - #101010;
+	color: @colorTexto;
+	#gradient > .vertical(@colorArriba, @colorAbajo);
+	.inline-block();
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 0 .2em rgba(0, 0, 0, .5);
+	&:hover {
+		#gradient > .vertical(@colorArriba + #101010, @colorAbajo + #101010);
+		cursor: pointer;
+		border-color: @colorArriba + #303030;
+		border-right-color: @colorAbajo;
+		border-bottom-color: @colorAbajo;
+	}
+	&:active {
+		#gradient > .vertical(@colorAbajo, @colorArriba);
+		border-color: @colorArriba + #202020;
+		border-right-color: @colorAbajo - #101010;
+		border-bottom-color: @colorAbajo - #101010;
+	}
+}
 
 .borde() {
 	border: 1px solid black;
 }
 
+
+// Estilos globales
+@import "variables.less";
+
 html {
 	background-color: @fondoHTML;
-	background-image: url("../img/fondo-pagina.png");
+	background-image: url("../img/background-texture.png");
 	color: @parrafos;
 	font-family: @SansSerif;
 	font-size: 16px;
@@ -25,7 +54,8 @@ em {
 }
 a {
 	font-weight: bold;
-	color: @enlaces - #101010;
+	color: @enlaces + #303030;
+	text-shadow: 0 0 .1em rgba(0, 0, 0, 1);
 	&:hover {
 	}
 }
@@ -34,7 +64,9 @@ body {
 	padding: 3em;
 	text-align: center;
 }
-
+stong {
+	text-shadow: 0 0 .2em rgba(0, 0, 0, 1);
+}
 // (1) El letter-spacing me da mejores resultados que el margin a la hora de
 // distribuir los elementos horizontalmente dentro del header.
 header {
@@ -54,7 +86,7 @@ h1 {
 	// (2) pongo el letter-spacing a normal para no afectar las letras interiores
 	letter-spacing: normal;
 	position: relative;
-	text-shadow: 0.05em 0.05em .1em rgba(0, 0, 0, .5);
+	text-shadow: 0.1em 0.1em .1em rgba(0, 0, 0, .4);
 	vertical-align: middle;
 }
 nav {
@@ -74,30 +106,11 @@ nav {
 			// ver si se puede usar el letter-spacing
 			margin-right: .4em;
 			a {
-				border: .1em solid @bordeNavClaro;
-				border-right: .1em solid @bordeNavOscuro;
-				border-bottom: .1em solid @bordeNavOscuro;
-				.border-radius(.25em);
-				.box-shadow(.1em .1em .2em rgba(0, 0, 0, .35));
-				color: white;
 				font-weight: bold;
-				#gradient > .vertical(@claroNav, @oscuroNav);
-				.inline-block();
 				margin: .1em 0 .1em 0;
 				*margin: .1em;
 				padding: .5em 1em;
-				text-decoration: none;
-				text-shadow: 0 0 .2em rgba(0, 0, 0, .75);
-				&:hover,
-				&:focus {
-					border: .1em solid @bordeNavClaroHover;
-					border-right: .1em solid @BordeNavOscuroHover;
-					border-bottom: .1em solid @BordeNavOscuroHover;
-					#gradient > .vertical(@claroNavHover, @oscuroNavHover);
-				}
-				&:active {
-					#gradient > .vertical(@oscuroNav, @claroNav);
-				}
+				.generar-boton(@claroNav, @oscuroNav);
 			}
 		}
 	}
@@ -123,7 +136,7 @@ h2 {
 	color: @titulos;
 	font-size: 2.25em;
 	line-height: 1em;
-	text-shadow: 0.05em 0.05em .1em rgba(0, 0, 0, .5);
+	text-shadow: 0.1em 0.1em .1em rgba(0, 0, 0, .4);
 	margin: 0 0 .5em 0;
 	padding: 0 0 .5em 0;
 }
@@ -131,7 +144,7 @@ h3 {
 	color: @titulos;
 	font-size: 1.5em;
 	line-height: 1em;
-	text-shadow: 0.1em 0.1em .05em rgba(0, 0, 0, .15);
+	text-shadow: 0.1em 0.1em .1em rgba(0, 0, 0, .4);
 }
 footer {
 	// ver el comentario (1)
@@ -182,36 +195,14 @@ footer {
 		letter-spacing: normal;
 	}
 }
-.generar-boton(@colorArriba, @colorAbajo) {
-	.border-radius(.35em);
-	.box-shadow(.1em .1em .2em rgba(0, 0, 0, .35));
-	border: .1em solid @colorArriba + #202020;
-	border-right-color: @colorAbajo - #101010;
-	border-bottom-color: @colorAbajo - #101010;
-	#gradient > .vertical(@colorArriba, @colorAbajo);
-	&:hover {
-		#gradient > .vertical(@colorArriba + #101010, @colorAbajo + #101010);
-		cursor: pointer;
-		border-color: @colorArriba + #303030;
-		border-right-color: @colorAbajo;
-		border-bottom-color: @colorAbajo;
-	}
-	&:active {
-		#gradient > .vertical(@colorAbajo, @colorArriba);
-		border-color: @colorArriba + #202020;
-		border-right-color: @colorAbajo - #101010;
-		border-bottom-color: @colorAbajo - #101010;
-	}
-}
+
 #botones-sociales {
 	.inline-block();
 	vertical-align: middle;
+	active:hover
 	a {
-		color: white;
 		height: 2.5em;
-		.inline-block();
 		margin: 0 .4em;
-		text-align: center;
 		width: 2.5em;
 		i {
 			font-size: 2em;
@@ -219,7 +210,6 @@ footer {
 			margin: .2em auto 0 auto;
 			*margin-top: .4em;
 			*padding-left: .2em;
-			text-shadow: 0 0 .2em rgba(0, 0, 0, .25);
 		}
 	}
 	.st_facebook_custom {
@@ -235,3 +225,4 @@ footer {
 		.generar-boton(@arribaGoogle, @abajoGoole);
 	}
 }
+// Open Sans, Lato
