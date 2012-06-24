@@ -1,10 +1,15 @@
-
+/**
+ * @nombre Alan Cristhian
+ * @fecha 2011
+ * bla balskjdf jañlkj ñlkj ñl kjñl kjñ lk
+ * añlsdjfijwerpoiuqwe oip oiu iou poiu poiu
+ */
 
 /* Este código fue escrito en CoffeeScript y luego fué compilado */
 
 (function() {
 
-	(function($) {
+	(function($, window) {
 		$.fn.name = function(options) {
 			var defaults;
 			defaults = {
@@ -16,12 +21,12 @@
 				$this = $(this);
 			});
 		};
-	})(jQuery);
+	})(jQuery, window);
 
 
 	/* guardo el nombre del plugin en name para que el script sirva al ser comprimido */
 
-	(function($) {
+	(function($, window) {
 		$.fn.email = function(options) {
 			var defaults;
 			defaults = {
@@ -36,12 +41,12 @@
 				dato.appendTo(that);
 			});
 		};
-	})(jQuery);
+	})(jQuery, window);
 
 
 	/* Cambia el valor de los meta tags del plugin Share This para que con los mismos botones se pueda compartir diferentes cosas de la página */
 
-	(function($) {
+	(function($, window) {
 		$.fn.updateShareThis = function(options) {
 			var defaults;
 			defaults = {
@@ -53,13 +58,13 @@
 				$this = $(this);
 			});
 		};
-	})(jQuery);
+	})(jQuery, window);
 
 
 	/* Uso el plugin hashchange para hacer usables los botones "atrás" y "adelante" del navegador.Este plugin fue sacado de http://archive.plugins.jquery.com/project/hashchange
 	
 	Este método está en el archivo ../js/plugins/jquery.hashchange.js */
-
+	// asdfasdf
 	$(window).hashchange(function() {
 		var direccion, hashBang;
 		hashBang = location.hash;

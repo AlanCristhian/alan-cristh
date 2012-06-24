@@ -1,5 +1,5 @@
 ### Este código fue escrito en CoffeeScript y luego fué compilado ###
-(($)->
+(($, window)->
 	$.fn.name = (options) ->
 		defaults =
 			attribute: value
@@ -8,7 +8,7 @@
 			$this = $ @
 			return
 	return
-)(jQuery)
+)(jQuery, window)
 
 ### guardo el nombre del plugin en name para que el script sirva al ser comprimido ###
 (($) ->
@@ -23,7 +23,7 @@
 			that = $(@)
 			dato = $('<a href="mailto:' + defaults.usuario + "@" + defaults.dominio + '">' + defaults.usuario + "@" + defaults.dominio + "</a>")
 			dato.appendTo(that)
-			return
+			return false
 	return
 )(jQuery)
 
