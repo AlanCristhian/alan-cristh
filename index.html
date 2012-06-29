@@ -30,29 +30,32 @@
 	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png">
 
 	<!-- Meta tags para rellenar los campos de los plulins para compartir -->
-	<meta id="meta-titulo" 		property="og:title" 		content="Alan Cristhian - Diseño y desarrollo web" />
-	<meta id="meta-tipo" 		property="og:type" 			content="Página personal de Alan Cristhian" />
-	<meta id="meta-url" 		property="og:url" 			content="http://alancristh.tk" />
-	<meta id="meta-image" 		property="og:image" 		content="images/alan-cristh.png" />
-	<meta id="meta-desciption" 	property="og:description" 	content="Página personal de Alan Cristhian Ruiz http://alancristh.tk" />
-	<meta id="meta-site-name" 	property="og:site_name" 	content="alan cristhian home" />
+	<meta id="meta-titulo"     property="og:title"       content="Alan Cristhian - Diseño y desarrollo web" />
+	<meta id="meta-tipo"       property="og:type"        content="Página personal de Alan Cristhian" />
+	<meta id="meta-url"        property="og:url"         content="http://alancristh.tk" />
+	<meta id="meta-image"      property="og:image"       content="images/alan-cristh.png" />
+	<meta id="meta-desciption" property="og:description" content="Página personal de Alan Cristhian Ruiz http://alancristh.tk" />
+	<meta id="meta-site-name"  property="og:site_name"   content="alan cristhian home" />
 </head>
 <body>
 	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	<div id="en-desarrollo">
+		<img src="img/en-desarrollo.png" alt="" />
+	</div>
 	<header>
-		<h1>Alan Cristhian &amp; </h1>
+		<h1>Alan Cristhian</h1>
 		<nav>
 			<ul>
-				<li><a href="/#!/home">Home</a></li>
-				<li><a href="/#!/about">About</a></li>
-				<li><a href="/#!/portfolio">Portfolio</a></li>
-				<li class="last-child"><a href="/#!/contact" >Contact</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#" >Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<section id="splash">
-		<img src="img/avatar.jpg" alt="" height="120" width="120"/>
+		<img class="lazy" src="img/image-loader.gif" data-original="img/avatar.jpg"  width="120" heigh="120">
 		<p><em>Hola soy desarrollador y diseñador web. Mientras me dedico a esto, estudio Ingeniería Electromecánica y este es mi portfolio. En esta página te voy a contar todo lo que se hacer.</em></p>
 	</section>
 
@@ -61,27 +64,34 @@
 		<article>
 			<h3>Elementos que se ajustan</h3>
 			<figure>
-				<img class="lazy" src="img/image-loader.gif" data-original="img/responsive.png"  width="192" heigh="116">
+				<img class="lazy" src="img/image-loader.gif" data-original="img/responsive.png"  width="400" heigh="267">
 				<figcaption>
-					<p>Existen muchos dispositivos y de diferentes tamaños: smartphones, tablets, desktops, notebooks, etc. Entonces, sería conveniente que el diseño de una aplicación web se vea bien en todos ellos. Además, nos intereza que el diseño sea <strong>parecido</strong> en cada uno de los dispositivos para que la marca no pierda su identidad.</p>
-
-					<p><strong>¿Y como se logra eso?</strong></p>
-
-					<p>La solución, entre otras cosas, es una técnia llamada <strong>Responsive Web Design</strong>, la cual consiste en hacer un único diseño que se ajuste automáticamente a los tamaños de cualquier pantalla.</p>
-
-					<p>Si deseas ver el <strong>Responsive Web Design</strong> en acción, redimensiona la ventanta de tu navegador y observa como los objetos en esta página se ajustan. También puedes <a href="#">leer mas</a> sobre esto.</p>
 				</figcaption>
 			</figure>
+			<div class="texto">
+				<p>Existen muchos dispositivos y de diferentes tamaños: smartphones, tablets, notebooks, etc. Entonces, sería conveniente que el diseño de una aplicación web se vea bien en todos ellos. Además, nos intereza que el diseño sea <strong>parecido</strong> en cada uno de los dispositivos para que la marca no pierda su identidad.</p>
+
+				<p><strong>¿Y como se logra eso?</strong></p>
+
+				<p>La solución, entre otras cosas, es una técnica llamada <strong>Responsive Web Design</strong>, la cual consiste en hacer un único diseño que se ajuste automáticamente a los tamaños de cualquier pantalla.</p>
+
+				<p>Si deseas ver el <strong>Responsive Web Design</strong> en acción, redimensiona la ventanta de tu navegador y observa como los objetos en esta página se ajustan.
+				<p>Si quieres saber mas sobre esto, visita <a href="http://www.alistapart.com/articles/responsive-web-design/">este artículo</a> escrito por Ethan Marcotte.</p>
+			</div>
 		</article>
+<!-- 
 		<article>
 			<h3>Enrriquecimiento de la experciencia del usuario con animaciones</h3>
 			<figure>
 				<img class="lazy" src="img/image-loader.gif" data-original="img/enriqucimiento.jpg"  width="192" heigh="192">
 				<figcaption>
-					<p>Las animaciones son geniales, a todo el mundo les gusta. Pero hay un problema, pueden molestar al usuario y llevar toda su atensión a la animación y no al contenido. Así que actualmente se usan para lo que se llama enriquecimiento.</p>
 				</figcaption>
 			</figure>
+			<div class="texto">
+				<p>Las animaciones son geniales, a todo el mundo les gusta. Pero hay un problema, pueden molestar al usuario y llevar toda su atensión a la animación y no al contenido. Así que actualmente se usan para lo que se llama enriquecimiento.</p>
+			</div>
 		</article>
+ -->
 	</section>
 
 	<footer>
