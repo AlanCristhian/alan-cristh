@@ -6,6 +6,7 @@
 
 // mixins
 .generar-boton(@colorArriba, @colorAbajo, @colorTexto: white) {
+	font-weight: bold;
 	.border-radius(.35em);
 	.box-shadow(.1em .1em .2em rgba(0, 0, 0, .5));
 	border: .1em solid @colorArriba + #202020;
@@ -17,12 +18,21 @@
 	text-align: center;
 	text-decoration: none;
 	text-shadow: 0 0 .2em rgba(0, 0, 0, .5);
+	&:focus {
+		#gradient > .vertical(@colorArriba + #101010, @colorAbajo + #101010);
+		cursor: pointer;
+		border-color: @colorArriba + #303030;
+		border-right-color: @colorAbajo;
+		border-bottom-color: @colorAbajo;
+		text-shadow: 0 0 .15em #fff;
+	}
 	&:hover {
 		#gradient > .vertical(@colorArriba + #101010, @colorAbajo + #101010);
 		cursor: pointer;
 		border-color: @colorArriba + #303030;
 		border-right-color: @colorAbajo;
 		border-bottom-color: @colorAbajo;
+		text-shadow: 0 0 .15em #fff;
 	}
 	&:active {
 		#gradient > .vertical(@colorAbajo, @colorArriba);
@@ -54,17 +64,19 @@ img {
 	.inline-block();
 	border: .5em solid white;
 	margin: 0 .5em;
-	.box-shadow(.15em .15em .2em rgba(0, 0, 0, .25);
+	.box-shadow(.15em .15em .2em rgba(0, 0, 0, .35);
 	vertical-align: top;
 }
-#en-desarrollo > img {
-	margin: 0;
-	padding: 0;
+#en-desarrollo{
+	background-image: url("../img/en-desarrollo.png");
 	border: 0;
+	height: 100px;
+	margin: 0;
 	position: absolute;
 	top: 0;
 	right: 0;
-	.box-shadow(none);
+	padding: 0;
+	width: 100px;
 }
 em {
 	font-family: @Serif;
@@ -73,8 +85,6 @@ a {
 	font-weight: bold;
 	color: @enlaces + #303030;
 	text-shadow: 0 0 .1em rgba(0, 0, 0, 1);
-	&:hover {
-	}
 }
 body {
 	margin: 0 auto;
@@ -108,6 +118,7 @@ h1 {
 }
 p {
 	text-align: justify;
+	margin: 1em 0 1.25em 0;
 }
 nav {
 	.inline-block();
@@ -135,14 +146,20 @@ nav {
 				padding: .5em 1em;
 				.generar-boton(@claroNav, @oscuroNav);
 			}
+			span {
+				display: none;
+			}
 		}
 	}
 }
 #splash {
 	margin-bottom: 2.5em;
+	img {
+		margin: 0 1em;
+	}
 	p {
 		.inline-block();
-		text-align: left;
+		text-align: justify;
 		max-width: 27em;
 		margin: 1em .5em .5em 0;
 		vertical-align: top;
@@ -176,23 +193,23 @@ footer {
 		span {
 			.inline-block();
 			vertical-align: middle;
+			margin-bottom: 1em;
+			margin-top: 1em;
 		}
 	}
 }
 .contenido {
-	display: block;
 	// ver el comentario (1)
 	letter-spacing: 4em;
-	width:auto;
 	margin: 0;
 	padding: 0;
 	article {
+		.inline-block();
 		text-align: center;
 		// ver el comentario (2)
 		letter-spacing: 2em;
 		margin: 0 0 2.5em 0;
-		*margin-right: 3.5em;
-		.inline-block();
+		// *margin-right: 4em;
 		padding: 0;
 		// (4) Cuando los elementos no caben en el ancho del contendor, se posicionan debajo. Cuando eso sucede, quiero que los que bajaron se alineen justo por debajo del elemento superior mas ancho. El vertical-align empuja esos elementos hacia arriba y logra ese efecto.
 		vertical-align: top;
@@ -201,19 +218,22 @@ footer {
 		}
 		figure {
 			.inline-block();
-			margin:0;
+			margin: 0;
+			*margin: 0 2em 0 2em;
 			img {
 				margin: 1.5em 0 .5em 0;
+				max-width: 400px;
+				box-sizing: border-box;
 			}
 			figcaption {
 				text-align: justify;
 			}
 		}
 		.texto {
+			.inline-block();
 			letter-spacing: normal;
 			margin: 0;
 			max-width: 26em;
-			.inline-block();
 			vertical-align: top;
 		}
 	}
@@ -249,4 +269,42 @@ footer {
 	.st_googleplus_custom {
 		.generar-boton(@arribaGoogle, @abajoGoole);
 	}
+}
+@media only screen and (max-width : 480px) {
+	body {
+		padding-right: 2em;
+		padding-left: 2em;
+	}
+	nav {
+		display: block;
+		ul {
+			li {
+				display: block;
+				a {
+					width: 100%;
+					padding-left: 0;
+					padding-right: 0;
+					margin: 0;
+				}
+				span {
+					display: block;
+					float: right;
+					position: relative;
+					right: .75em;
+				}
+			}
+		}
+	}
+	.contenido {
+		width: auto;
+		img {
+			width: 100%;
+			min-width: 15em;
+		}
+	}
+	footer aside span {
+	}
+}
+#captura {
+	display: none;
 }
