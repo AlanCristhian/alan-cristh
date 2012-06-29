@@ -49,7 +49,47 @@
              x2="56.598305"
              y2="417.88016"
              gradientUnits="userSpaceOnUse"
-             gradientTransform="translate(75.448936,-51.699066)" />
+             gradientTransform="matrix(0.83333333,0,0,0.83333333,124.88199,44.614288)" />
+        <linearGradient
+             inkscape:collect="always"
+             xlink:href="#linearGradient3969"
+             id="linearGradient3300"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="matrix(0.83333333,0,0,0.83333333,124.88199,44.614288)"
+             x1="536.59833"
+             y1="737.88013"
+             x2="56.598305"
+             y2="417.88016" />
+        <linearGradient
+             inkscape:collect="always"
+             xlink:href="#linearGradient3969"
+             id="linearGradient3329"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="matrix(0.83333333,0,0,0.83333333,124.88199,44.614288)"
+             x1="536.59833"
+             y1="737.88013"
+             x2="56.598305"
+             y2="417.88016" />
+        <linearGradient
+             inkscape:collect="always"
+             xlink:href="#linearGradient3969"
+             id="linearGradient3385"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="matrix(0.83333333,0,0,0.83333333,124.88199,44.614288)"
+             x1="536.59833"
+             y1="737.88013"
+             x2="56.598305"
+             y2="417.88016" />
+        <linearGradient
+             inkscape:collect="always"
+             xlink:href="#linearGradient3969"
+             id="linearGradient3415"
+             gradientUnits="userSpaceOnUse"
+             gradientTransform="matrix(0.83333333,0,0,0.83333333,124.88199,44.614288)"
+             x1="536.59833"
+             y1="737.88013"
+             x2="56.598305"
+             y2="417.88016" />
     </defs>
     <sodipodi:namedview
          id="base"
@@ -58,9 +98,9 @@
          borderopacity="1.0"
          inkscape:pageopacity="0.0"
          inkscape:pageshadow="2"
-         inkscape:zoom="0.49999999"
-         inkscape:cx="359.09657"
-         inkscape:cy="492.94917"
+         inkscape:zoom="1.2335929"
+         inkscape:cx="416.44414"
+         inkscape:cy="516.12914"
          inkscape:document-units="px"
          inkscape:current-layer="layer1"
          showgrid="false"
@@ -101,252 +141,270 @@
          inkscape:groupmode="layer"
          id="layer1">
         <rect
-             style="fill:url(#linearGradient3975);fill-opacity:1;stroke:none"
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+             y="408.68109"
+             x="188.04724"
+             height="235"
+             width="368"
+             id="rect3202"
+             style="fill:#000000;fill-opacity:1;stroke:none" />
+        <rect
+             style="fill:url(#linearGradient3415);fill-opacity:1;stroke:none"
              id="rect3909"
-             width="480"
-             height="320"
-             x="132.04724"
-             y="366.18109"
+             width="400"
+             height="266.66666"
+             x="172.04724"
+             y="392.84778"
              inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-             inkscape:export-xdpi="75.093742"
-             inkscape:export-ydpi="75.093742" />
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
         <g
-             id="g3881"
+             id="g3345"
+             transform="translate(4.6492669,0.99990946)"
              inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-             inkscape:export-xdpi="75.093742"
-             inkscape:export-ydpi="75.093742"
-             transform="translate(75.448937,-51.699064)">
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90">
             <g
+                 id="g3811"
                  style="fill:#000000;fill-opacity:0.36078431;filter:url(#filter3877)"
-                 transform="translate(-71.22317,349.00016)"
-                 id="g3865">
-                <g
-                     transform="matrix(1.1593592,0.81179203,-0.81179203,1.1593592,962.62853,-765.29593)"
-                     style="fill:#000000;fill-opacity:0.36078431"
-                     id="g3811">
-                    <rect
-                         style="fill:#000000;fill-opacity:0.36078431;stroke:none"
-                         id="rect3813"
-                         width="169.02255"
-                         height="116.73944"
-                         x="8.7994738"
-                         y="731.94818"
-                         inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                         inkscape:export-xdpi="90"
-                         inkscape:export-ydpi="90" />
-                    <path
-                         style="fill:#000000;fill-opacity:0.36078431;stroke:none"
-                         d="m 75.0145,848.68766 -1.7425,13.93903 -8.712507,1.74239 0,3.48476 57.502527,0 0,-3.48476 -6.97001,-1.74239 -1.7425,-13.93903 z"
-                         id="path3815"
-                         inkscape:connector-curvature="0"
-                         sodipodi:nodetypes="ccccccccc"
-                         inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                         inkscape:export-xdpi="90"
-                         inkscape:export-ydpi="90" />
-                </g>
+                 transform="matrix(1.153451,0.41982181,-0.41982181,1.153451,648.4738,-415.99496)">
                 <rect
                      inkscape:export-ydpi="90"
                      inkscape:export-xdpi="90"
                      inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     transform="matrix(0.98481368,-0.17361458,0.17368178,0.98480183,0,0)"
-                     y="262.72925"
-                     x="115.95106"
-                     height="130.70271"
-                     width="101.11086"
-                     id="rect3821"
+                     y="731.94818"
+                     x="8.7994738"
+                     height="116.73944"
+                     width="169.02255"
+                     id="rect3813"
                      style="fill:#000000;fill-opacity:0.36078431;stroke:none" />
-                <rect
+                <path
                      inkscape:export-ydpi="90"
                      inkscape:export-xdpi="90"
                      inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     transform="matrix(0.90631901,0.4225942,-0.42264231,0.90629657,0,0)"
-                     y="36.156693"
-                     x="620.14166"
-                     height="61.65123"
-                     width="32.060066"
-                     id="rect3827"
+                     sodipodi:nodetypes="ccccccccc"
+                     inkscape:connector-curvature="0"
+                     id="path3815"
+                     d="m 75.0145,848.68766 -1.7425,13.93903 -8.712507,1.74239 0,3.48476 57.502527,0 0,-3.48476 -6.97001,-1.74239 -1.7425,-13.93903 z"
                      style="fill:#000000;fill-opacity:0.36078431;stroke:none" />
-                <rect
-                     style="fill:#000000;fill-opacity:0.36078431;stroke:none"
-                     id="rect3833"
-                     width="28.30488"
-                     height="60.1479"
-                     x="-4.9875197"
-                     y="271.39642"
-                     transform="matrix(0.49997461,-0.86604006,0.86601339,0.50002081,0,0)"
-                     inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     inkscape:export-xdpi="90"
-                     inkscape:export-ydpi="90" />
             </g>
-            <g
-                 transform="matrix(0.86666658,0,0,0.86666658,10.619827,95.109644)"
-                 id="g3789">
-                <g
-                     id="g4663"
-                     style="fill:#2b7cd0;fill-opacity:1"
-                     transform="matrix(1.3377223,0.93668321,-0.93668321,1.3377223,1015.1374,-593.54492)">
-                    <rect
-                         inkscape:export-ydpi="90"
-                         inkscape:export-xdpi="90"
-                         inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                         y="731.94818"
-                         x="8.7994738"
-                         height="116.73944"
-                         width="169.02255"
-                         id="rect3020"
-                         style="fill:#2b7cd0;fill-opacity:1;stroke:none" />
-                    <path
-                         inkscape:export-ydpi="90"
-                         inkscape:export-xdpi="90"
-                         inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                         sodipodi:nodetypes="ccccccccc"
-                         inkscape:connector-curvature="0"
-                         id="path3030"
-                         d="m 75.0145,848.68766 -1.7425,13.93903 -8.712507,1.74239 0,3.48476 57.502527,0 0,-3.48476 -6.97001,-1.74239 -1.7425,-13.93903 z"
-                         style="fill:#2b7cd0;fill-opacity:1;stroke:none" />
-                </g>
-                <rect
-                     style="fill:#cfe2f5;fill-opacity:1;stroke:none"
-                     id="rect3024"
-                     width="241.8763"
-                     height="139.42491"
-                     x="522.55219"
-                     y="141.078"
-                     inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     inkscape:export-xdpi="90"
-                     inkscape:export-ydpi="90"
-                     transform="matrix(0.81915205,0.57357642,-0.57357642,0.81915205,0,0)" />
-                <path
-                     sodipodi:type="arc"
-                     style="fill:#cfe2f5;fill-opacity:1;stroke:none"
-                     id="path3028"
-                     sodipodi:cx="312.5"
-                     sodipodi:cy="709.86218"
-                     sodipodi:rx="12.5"
-                     sodipodi:ry="12.5"
-                     d="m 325,709.86218 c 0,6.90356 -5.59644,12.5 -12.5,12.5 -6.90356,0 -12.5,-5.59644 -12.5,-12.5 0,-6.90356 5.59644,-12.5 12.5,-12.5 6.90356,0 12.5,5.59644 12.5,12.5 z"
-                     transform="matrix(0.35430925,0.24809,-0.24807281,0.3542847,420.99404,284.99433)"
-                     inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     inkscape:export-xdpi="90"
-                     inkscape:export-ydpi="90" />
-                <rect
-                     style="fill:#478b04;fill-opacity:1;stroke:none"
-                     id="rect3004"
-                     width="116.66639"
-                     height="150.81084"
-                     x="-10.624426"
-                     y="571.64636"
-                     transform="matrix(0.98481368,-0.17361458,0.17368177,0.98480183,0,0)"
-                     inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     inkscape:export-xdpi="90"
-                     inkscape:export-ydpi="90" />
-                <rect
-                     style="fill:#defdbf;fill-opacity:1;stroke:none"
-                     id="rect3006"
-                     width="91.056702"
-                     height="119.51048"
-                     x="2.1803844"
-                     y="587.29645"
-                     transform="matrix(0.98481368,-0.17361458,0.17368177,0.98480183,0,0)"
-                     inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     inkscape:export-xdpi="90"
-                     inkscape:export-ydpi="90" />
-                <path
-                     sodipodi:type="arc"
-                     style="fill:#defdbf;fill-opacity:1;stroke:none"
-                     id="path3008"
-                     sodipodi:cx="532.5"
-                     sodipodi:cy="774.86218"
-                     sodipodi:rx="7.5"
-                     sodipodi:ry="7.5"
-                     d="m 540,774.86218 c 0,4.14214 -3.35786,7.5 -7.5,7.5 -4.14214,0 -7.5,-3.35786 -7.5,-7.5 0,-4.14213 3.35786,-7.5 7.5,-7.5 4.14214,0 7.5,3.35787 7.5,7.5 z"
-                     transform="matrix(0.4110053,-0.07245686,0.07248402,0.41099541,-103.94736,415.46638)"
-                     inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     inkscape:export-xdpi="90"
-                     inkscape:export-ydpi="90" />
-                <rect
-                     style="fill:#af3ad0;fill-opacity:1;stroke:none"
-                     id="rect2998"
-                     width="36.992386"
-                     height="71.13604"
-                     x="751.2674"
-                     y="344.48349"
-                     transform="matrix(0.90631901,0.4225942,-0.42264232,0.90629657,0,0)"
-                     inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     inkscape:export-xdpi="90"
-                     inkscape:export-ydpi="90" />
-                <rect
-                     style="fill:#f1dbf7;fill-opacity:1;stroke:none"
-                     id="rect3000"
-                     width="28.455681"
-                     height="48.372505"
-                     x="755.53571"
-                     y="355.86526"
-                     transform="matrix(0.90631901,0.4225942,-0.42264232,0.90629657,0,0)"
-                     inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     inkscape:export-xdpi="90"
-                     inkscape:export-ydpi="90" />
-                <path
-                     sodipodi:type="arc"
-                     style="fill:#f1dbf7;fill-opacity:1;stroke:none"
-                     id="path3002"
-                     sodipodi:cx="690"
-                     sodipodi:cy="777.36218"
-                     sodipodi:rx="5"
-                     sodipodi:ry="5"
-                     d="m 695,777.36218 c 0,2.76143 -2.23858,5 -5,5 -2.76142,0 -5,-2.23857 -5,-5 0,-2.76142 2.23858,-5 5,-5 2.76142,0 5,2.23858 5,5 z"
-                     transform="matrix(0.51579849,0.24050412,-0.24052079,0.51576276,355.46898,129.9322)"
-                     inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     inkscape:export-xdpi="90"
-                     inkscape:export-ydpi="90" />
-                <rect
-                     inkscape:export-ydpi="90"
-                     inkscape:export-xdpi="90"
-                     inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
-                     transform="matrix(0.49997462,-0.86604006,0.86601339,0.50002081,0,0)"
-                     y="375.10388"
-                     x="-304.25208"
-                     height="69.401428"
-                     width="32.659481"
-                     id="rect4692"
-                     style="fill:#cf6600;fill-opacity:1;stroke:none" />
-                <path
-                     style="fill:#ffdfc1;fill-opacity:1;stroke:none"
-                     d="m 210.12157,467.93213 21.21296,12.2473 12.2473,-21.21295 -21.21295,-12.24731 z"
-                     id="path4727"
-                     inkscape:connector-curvature="0"
-                     sodipodi:nodetypes="ccccc" />
-                <path
-                     style="fill:none;stroke:#cf6600;stroke-width:2.30769253;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-                     d="m 214.20401,460.86114 21.21295,12.24731"
-                     id="path4729"
-                     inkscape:connector-curvature="0"
-                     sodipodi:nodetypes="cc" />
-                <path
-                     style="fill:none;stroke:#cf6600;stroke-width:2.30769253;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-                     d="m 218.28644,453.79015 21.21296,12.24731"
-                     id="path4731"
-                     inkscape:connector-curvature="0"
-                     sodipodi:nodetypes="cc" />
-                <path
-                     style="fill:none;stroke:#cf6600;stroke-width:2.30769253;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-                     d="m 229.43986,450.8016 -12.2473,21.21296"
-                     id="path4735"
-                     inkscape:connector-curvature="0" />
-                <path
-                     style="fill:none;stroke:#cf6600;stroke-width:2.30769253;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-                     d="m 224.26354,476.097 12.24731,-21.21296"
-                     id="path4737"
-                     inkscape:connector-curvature="0" />
-                <rect
-                     style="fill:#ffdfc1;fill-opacity:1;stroke:none"
-                     id="rect4741"
-                     width="24.494612"
-                     height="24.494612"
-                     x="-300.1803"
-                     y="383.27722"
-                     transform="matrix(0.50000002,-0.86602539,0.86602539,0.50000002,0,0)" />
-            </g>
+            <rect
+                 transform="matrix(0.93969262,0.34202015,-0.34202015,0.93969262,0,0)"
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 y="283.85339"
+                 x="476.36438"
+                 height="143.29497"
+                 width="207.47128"
+                 id="rect3020"
+                 style="fill:#2b7cd0;fill-opacity:1;stroke:none" />
+            <path
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 sodipodi:nodetypes="ccccccccc"
+                 inkscape:connector-curvature="0"
+                 id="path3030"
+                 d="m 377.91849,592.11292 -7.86179,15.34645 -10.78095,-1.64794 -1.46298,4.0195 66.32635,24.14081 1.46298,-4.01949 -7.30807,-4.93593 3.84202,-16.80953 z"
+                 style="fill:#2b7cd0;fill-opacity:1;stroke:none" />
+            <rect
+                 transform="matrix(0.93969263,0.34202012,-0.34202012,0.93969263,0,0)"
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 y="294.54709"
+                 x="489.19766"
+                 height="104.79782"
+                 width="181.80473"
+                 id="rect3024"
+                 style="fill:#cfe2f5;fill-opacity:1;stroke:none" />
+            <path
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 transform="matrix(0.30550314,0.11119405,-0.11118634,0.30548197,387.23426,335.13249)"
+                 d="m 325,709.86218 c 0,6.90356 -5.59644,12.5 -12.5,12.5 -6.90356,0 -12.5,-5.59644 -12.5,-12.5 0,-6.90356 5.59644,-12.5 12.5,-12.5 6.90356,0 12.5,5.59644 12.5,12.5 z"
+                 sodipodi:ry="12.5"
+                 sodipodi:rx="12.5"
+                 sodipodi:cy="709.86218"
+                 sodipodi:cx="312.5"
+                 id="path3028"
+                 style="fill:#cfe2f5;fill-opacity:1;stroke:none"
+                 sodipodi:type="arc" />
+        </g>
+        <g
+             id="g3204"
+             transform="translate(1.5574821e-6,-6)"
+             inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90">
+            <rect
+                 style="fill:#000000;fill-opacity:0.36078431;stroke:none;filter:url(#filter3877)"
+                 id="rect3821"
+                 width="101.11086"
+                 height="130.70271"
+                 x="115.95106"
+                 y="262.72925"
+                 transform="matrix(0.8541102,-0.15057263,0.15063091,0.85409993,53.042661,320.50386)"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-ydpi="90" />
+            <rect
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 transform="matrix(0.98481367,-0.17361459,0.17368177,0.98480183,0,0)"
+                 y="549.99274"
+                 x="96.730911"
+                 height="113.35598"
+                 width="87.691528"
+                 id="rect3004"
+                 style="fill:#478b04;fill-opacity:1;stroke:none" />
+            <rect
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 transform="matrix(0.98481367,-0.17361459,0.17368177,0.98480183,0,0)"
+                 y="561.75598"
+                 x="106.35558"
+                 height="89.829277"
+                 width="68.442177"
+                 id="rect3006"
+                 style="fill:#defdbf;fill-opacity:1;stroke:none" />
+            <path
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 transform="matrix(0.30892945,-0.05446173,0.05448214,0.30892202,45.89218,412.59202)"
+                 d="m 540,774.86218 c 0,4.14214 -3.35786,7.5 -7.5,7.5 -4.14214,0 -7.5,-3.35786 -7.5,-7.5 0,-4.14213 3.35786,-7.5 7.5,-7.5 4.14214,0 7.5,3.35787 7.5,7.5 z"
+                 sodipodi:ry="7.5"
+                 sodipodi:rx="7.5"
+                 sodipodi:cy="774.86218"
+                 sodipodi:cx="532.5"
+                 id="path3008"
+                 style="fill:#defdbf;fill-opacity:1;stroke:none"
+                 sodipodi:type="arc" />
+        </g>
+        <g
+             id="g3339"
+             transform="translate(6,-2)"
+             inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90">
+            <rect
+                 style="fill:#000000;fill-opacity:0.36078431;stroke:none;filter:url(#filter3877)"
+                 id="rect3827"
+                 width="32.060066"
+                 height="61.65123"
+                 x="620.14166"
+                 y="36.156693"
+                 transform="matrix(0.34079454,0.79751831,-0.79753639,0.34075219,333.29603,-89.67545)"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-ydpi="90" />
+            <rect
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 transform="matrix(0.39294592,0.91956158,-0.91958244,0.3928971,0,0)"
+                 y="-309.20645"
+                 x="584.17938"
+                 height="53.468941"
+                 width="27.805086"
+                 id="rect2998"
+                 style="fill:#af3ad0;fill-opacity:1;stroke:none" />
+            <rect
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 transform="matrix(0.39294592,0.91956158,-0.91958244,0.3928971,0,0)"
+                 y="-300.65143"
+                 x="587.38763"
+                 height="36.358879"
+                 width="21.388527"
+                 id="rect3000"
+                 style="fill:#f1dbf7;fill-opacity:1;stroke:none" />
+            <path
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 transform="matrix(0.16809069,0.39336136,-0.39335276,0.16806232,663.91415,45.749411)"
+                 d="m 695,777.36218 c 0,2.76143 -2.23858,5 -5,5 -2.76142,0 -5,-2.23857 -5,-5 0,-2.76142 2.23858,-5 5,-5 2.76142,0 5,2.23858 5,5 z"
+                 sodipodi:ry="5"
+                 sodipodi:rx="5"
+                 sodipodi:cy="777.36218"
+                 sodipodi:cx="690"
+                 id="path3002"
+                 style="fill:#f1dbf7;fill-opacity:1;stroke:none"
+                 sodipodi:type="arc" />
+        </g>
+        <g
+             id="g3183"
+             transform="translate(-21.940486,0.053201)"
+             inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90">
+            <rect
+                 inkscape:export-ydpi="90"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 transform="matrix(0.43361848,-0.7511001,0.75107697,0.43365855,53.042661,328.50386)"
+                 y="271.39642"
+                 x="-4.9875197"
+                 height="60.1479"
+                 width="28.30488"
+                 id="rect3833"
+                 style="fill:#000000;fill-opacity:0.36078431;stroke:none;filter:url(#filter3877)" />
+            <rect
+                 style="fill:#cf6600;fill-opacity:1;stroke:none"
+                 id="rect4692"
+                 width="24.548286"
+                 height="52.165131"
+                 x="-260.47217"
+                 y="443.50571"
+                 transform="matrix(0.49997462,-0.86604006,0.86601339,0.50002081,0,0)"
+                 inkscape:export-filename="D:\Cristhian\alan-cristh\img\responsive.png"
+                 inkscape:export-xdpi="90"
+                 inkscape:export-ydpi="90" />
+            <path
+                 sodipodi:nodetypes="ccccc"
+                 inkscape:connector-curvature="0"
+                 id="path4727"
+                 d="m 281.96004,460.02756 15.94458,9.2056 9.2056,-15.94457 -15.94457,-9.20561 z"
+                 style="fill:#ffdfc1;fill-opacity:1;stroke:none" />
+            <path
+                 sodipodi:nodetypes="cc"
+                 inkscape:connector-curvature="0"
+                 id="path4729"
+                 d="m 285.02858,454.7127 15.94457,9.20561"
+                 style="fill:none;stroke:#cf6600;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+            <path
+                 sodipodi:nodetypes="cc"
+                 inkscape:connector-curvature="0"
+                 id="path4731"
+                 d="m 288.09711,449.39783 15.94458,9.20561"
+                 style="fill:none;stroke:#cf6600;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+            <path
+                 inkscape:connector-curvature="0"
+                 id="path4735"
+                 d="m 296.4805,447.15151 -9.2056,15.94458"
+                 style="fill:none;stroke:#cf6600;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+            <path
+                 inkscape:connector-curvature="0"
+                 id="path4737"
+                 d="m 292.58976,466.16463 9.20561,-15.94458"
+                 style="fill:none;stroke:#cf6600;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+            <rect
+                 transform="matrix(0.50000002,-0.86602539,0.86602539,0.50000002,0,0)"
+                 y="449.65005"
+                 x="-257.41553"
+                 height="18.411215"
+                 width="18.411215"
+                 id="rect4741"
+                 style="fill:#ffdfc1;fill-opacity:1;stroke:none" />
         </g>
     </g>
 </svg>
