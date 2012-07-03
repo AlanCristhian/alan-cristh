@@ -1,4 +1,6 @@
-.generar-boton(@colorArriba, @colorAbajo, @colorTexto: white) {
+.generar-boton(@colorFondo, @colorTexto: white) {
+	@colorArriba: @colorFondo + #0c0c0c;
+	@colorAbajo: @colorFondo - #0c0c0c;
 	font-weight: bold;
 	.border-radius(.35em);
 	.box-shadow(.1em .1em .2em rgba(0, 0, 0, .5));
