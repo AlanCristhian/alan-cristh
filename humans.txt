@@ -1,0 +1,10 @@
+/* TEAM */
+	Developer and Designer: Alan Cristhian Ruiz
+	Contact: alan.cristh@gmail.com
+	Twitter: @AlanCristh
+
+/* SITE */
+	Last update: 2012/07/05
+	Language: Castellano
+	Doctype: HTML5
+	IDE: Notepad++, FileZilla, Inkscape, Hornil StylePix, SimpLESS
