@@ -69,7 +69,7 @@ header {
 	margin-bottom: 1em;
 }
 h1 {
-	color: @titulos;
+	color: @titular;
 	font-size: 2.25em;
 	.inline-block();
 	// (3) Este margen es para separar el h1 del splash.
@@ -83,6 +83,23 @@ h1 {
 	position: relative;
 	text-shadow: 0.1em 0.1em .1em rgba(0, 0, 0, .4);
 	vertical-align: middle;
+}
+h2 {
+	color: @titulos;
+	font-size: 2.25em;
+	line-height: 1em;
+	text-shadow: 0.1em 0.1em .1em rgba(0, 0, 0, .4);
+	margin: 0 0 .5em 0;
+	padding: 0 0 .5em 0;
+}
+h3 {
+	color: @titulos;
+	// font-family: @Serif;
+	font-size: 1.5em;
+	line-height: 1em;
+	text-align: center;
+	text-shadow: 0.1em 0.1em .1em rgba(0, 0, 0, .4);
+	word-spacing: .1em;
 }
 p {
 	text-align: justify;
@@ -132,25 +149,9 @@ nav {
 		.inline-block();
 		text-align: justify;
 		max-width: 27em;
-		margin: 1em .5em .5em 0;
+		margin: 1em 0 .5em 0;
 		vertical-align: top;
 	}
-}
-h2 {
-	color: @titulos;
-	font-size: 2.25em;
-	line-height: 1em;
-	text-shadow: 0.1em 0.1em .1em rgba(0, 0, 0, .4);
-	margin: 0 0 .5em 0;
-	padding: 0 0 .5em 0;
-}
-h3 {
-	color: @titulos;
-	font-size: 1.5em;
-	line-height: 1em;
-	text-shadow: 0.1em 0.1em .1em rgba(0, 0, 0, .4);
-	text-align: center;
-	word-spacing: .1em;
 }
 footer {
 	// ver el comentario (1)
@@ -223,7 +224,7 @@ footer {
 	vertical-align: middle;
 	a {
 		height: 2.5em;
-		margin: 0 .4em;
+		margin: .4em .4em;
 		width: 2.5em;
 		i {
 			font-size: 2em;
@@ -271,13 +272,18 @@ footer {
 		}
 	}
 	.contenido {
-		width: auto;
-		img {
+		figure {
 			width: 100%;
-			min-width: 15em;
+			img {
+				width: 100%;
+			}
 		}
 	}
-	footer aside span {
+	footer aside {
+		span {
+			margin-bottom: 0;
+			margin-top: 0;
+		}
 	}
 }
 #captura {

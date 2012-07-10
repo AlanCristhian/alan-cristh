@@ -1571,6 +1571,22 @@ h1 {
   text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.4);
   vertical-align: middle;
 }
+h2 {
+  color: #ffffff;
+  font-size: 2.25em;
+  line-height: 1em;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.4);
+  margin: 0 0 .5em 0;
+  padding: 0 0 .5em 0;
+}
+h3 {
+  color: #ffffff;
+  font-size: 1.5em;
+  line-height: 1em;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.4);
+  word-spacing: .1em;
+}
 p {
   text-align: justify;
   margin: 1em 0 1.25em 0;
@@ -1703,24 +1719,8 @@ nav ul li span {
   *zoom: 1;
   text-align: justify;
   max-width: 27em;
-  margin: 1em .5em .5em 0;
+  margin: 1em 0 .5em 0;
   vertical-align: top;
-}
-h2 {
-  color: #ffffff;
-  font-size: 2.25em;
-  line-height: 1em;
-  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.4);
-  margin: 0 0 .5em 0;
-  padding: 0 0 .5em 0;
-}
-h3 {
-  color: #ffffff;
-  font-size: 1.5em;
-  line-height: 1em;
-  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.4);
-  text-align: center;
-  word-spacing: .1em;
 }
 footer {
   letter-spacing: 3em;
@@ -1818,7 +1818,7 @@ footer aside span img {
 }
 #botones-sociales a {
   height: 2.5em;
-  margin: 0 .4em;
+  margin: .4em .4em;
   width: 2.5em;
 }
 #botones-sociales a i {
@@ -2154,12 +2154,15 @@ footer aside span img {
     position: relative;
     right: .75em;
   }
-  .contenido {
-    width: auto;
-  }
-  .contenido img {
+  .contenido figure {
     width: 100%;
-    min-width: 15em;
+  }
+  .contenido figure img {
+    width: 100%;
+  }
+  footer aside span {
+    margin-bottom: 0;
+    margin-top: 0;
   }
 }
 #captura {
