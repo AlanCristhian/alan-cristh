@@ -1,4 +1,4 @@
-### Este código fue escrito en CoffeeScript y luego fué compilado ###
+### Este cÃ³digo fue escrito en CoffeeScript y luego fuÃ© compilado ###
 (($, window)->
 	$.fn.name = (options) ->
 		defaults =
@@ -10,7 +10,7 @@
 	return
 )(jQuery, window)
 
-### guardo el nombre del plugin en name para que el script sirva al ser comprimido ###
+
 (($) ->
 	$.fn.email = (options) ->
 		defaults =
@@ -25,11 +25,8 @@
 			dato.appendTo(that)
 			return false
 	return
-)(jQuery)
 
-
-### Cambia el valor de los meta tags del plugin Share This para que con los mismos botones se pueda compartir diferentes cosas de la página ###
-(($)->
+	### Cambia el valor de los meta tags del plugin Share This para que con los mismos botones se pueda compartir diferentes cosas de la pÃ¡gina ###
 	$.fn.updateShareThis = (options) ->
 		defaults =
 			attribute: value
@@ -40,9 +37,9 @@
 	return
 )(jQuery)
 
-### Uso el plugin hashchange para hacer usables los botones "atrás" y "adelante" del navegador.Este plugin fue sacado de http://archive.plugins.jquery.com/project/hashchange
+### Uso el plugin hashchange para hacer usables los botones "atrÃ¡s" y "adelante" del navegador.Este plugin fue sacado de http://archive.plugins.jquery.com/project/hashchange
 
-Este método está en el archivo ../js/plugins/jquery.hashchange.js ###
+Este mÃ©todo estÃ¡ en el archivo ../js/plugins/jquery.hashchange.js ###
 
 $(window).hashchange ->
 	hashBang = location.hash
@@ -54,9 +51,9 @@ $(window).hashchange ->
 		$("#contenido").load "home.html"
 	return
 
-### El método responsivesize cambia los tamaños para que los elementos no se vean pequeños en resoluciones mayores a 96dpi.
+### El mÃ©todo responsivesize cambia los tamaÃ±os para que los elementos no se vean pequeÃ±os en resoluciones mayores a 96dpi.
 
-Este método está en el archivo ../js/plugins/jquery.responsivesie.js ###
+Este mÃ©todo estÃ¡ en el archivo ../js/plugins/jquery.responsivesie.js ###
 
 $(document).on "ready", ->
 	# $(window).hashchange()
